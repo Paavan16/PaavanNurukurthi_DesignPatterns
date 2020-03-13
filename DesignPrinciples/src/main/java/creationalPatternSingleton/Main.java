@@ -1,0 +1,9 @@
+package creationalPatternSingleton;
+
+public class Main {
+	public static void main(String[] args) {
+        SingletonClass singletonClass = SingletonClass.getInstance();
+        System.out.println(singletonClass.showMessage());
+    }
+
+}
